@@ -14,6 +14,7 @@ body {
   background-color: #000;
   color: #fff;
   margin: 0;
+  
 }
 
 header {
@@ -59,7 +60,7 @@ main {
 }
 
 .hero {
-  background-color: #000; /* Black background */
+ 
   padding: 40px;
   text-align: center;
   border-radius: 5px;
@@ -83,9 +84,19 @@ main {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #000; /* Black background */
+  /* Black background */
   color: #ff6600; /* Halloween orange text */
 }
+<<<<<<< HEAD:template/home.css
+.content
+{
+  height:254px;
+  width:100vw;
+  
+  display:flex;
+  justify-content:center;
+  gap: 200px ;
+=======
 .content {
   height: 254px;
   width: 100vw;
@@ -93,8 +104,15 @@ footer {
   display: flex;
   justify-content: center;
   gap: 200px;
+>>>>>>> 1ba28089ed610d4a039fd85c43e25999cac042ba:home.css
   margin-top: 5px;
 }
+<<<<<<< HEAD:template/home.css
+.contentBox{
+ border-radius: 50%;
+
+=======
 .contentBox {
   border-radius: 50%;
+>>>>>>> 1ba28089ed610d4a039fd85c43e25999cac042ba:home.css
 }
