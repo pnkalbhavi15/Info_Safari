@@ -9,7 +9,7 @@ from pdfminer.high_level import extract_pages,extract_text
   #  print(element)
 text =   extract_text("anime.pdf")
 print(text)
-
+'''
 pattern= re.compile(r"[a-zA-Z]+,{1}\s{1}")
 matches=pattern.findall(text)
 print(matches)
@@ -22,3 +22,4 @@ for i in range (len(pdf)):
   for image in image :
     base_img=pdf.extract_image(image[0])
     image_data=base_img["image"]
+    '''

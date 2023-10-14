@@ -14,6 +14,7 @@ body {
   background-color: #000;
   color: #fff;
   margin: 0;
+  
 }
 
 header {
@@ -61,7 +62,7 @@ main {
 }
 
 .hero {
-  background-color: #000; /* Black background */
+ 
   padding: 40px;
   text-align: center;
   border-radius: 5px;
@@ -85,14 +86,14 @@ main {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #000; /* Black background */
+  /* Black background */
   color: #ff6600; /* Halloween orange text */
 }
 .content
 {
   height:254px;
   width:100vw;
-  background-color:black;
+  
   display:flex;
   justify-content:center;
   gap: 200px ;
