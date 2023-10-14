@@ -160,6 +160,7 @@ a:hover {
   border-radius: 5px;
   font-size: 16px;
   color: #ff3c00;
+  background-color: #0a0a0a;
 }
 
 .contact-form textarea {
