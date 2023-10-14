@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='news_1.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Scraped Headings</h1>
+    <ol>
+      {% for heading in headings %}
+      <li>{{ heading }}</li>
+      {% endfor %}
+    </ol>
+  </body>
+</html>
