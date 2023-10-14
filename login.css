@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Creepster", cursive;
+  background-color: #1a1a1a;
+  color: #ffdb4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #292929;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  opacity: 0;
+}
+
+.form-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #ffdb4d;
+}
+
+.form h2 {
+  color: #ff9900;
+}
+
+.form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #ffdb4d;
+}
+
+.form button {
+  background-color: #ff9900;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Creepster", cursive;
+}
+
+/* Add transition properties */
+.container {
+  transition: opacity 1s ease;
+}
