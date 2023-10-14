@@ -1,0 +1,197 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header {
+  background-color: transparent;
+  color: #b13516; /* Change text color to primary color */
+  padding: 20px 0;
+  padding-left: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #c55d0d; /* Add a border at the bottom */
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+
+    
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e110d; /* Change link color to primary color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+main {
+  background-color: #0c0606;
+  padding: 20px 0;
+}
+
+/* Domain cards */
+.domains {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.domain-card {
+  background-color: transparent;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #007bff; /* Add a border */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.domain-card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:#ff3c00;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:#ff3c00;
+}
+
+p {
+  font-size: 16px;
+  color:#ff3c00;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ff3c00;
+  border: 2px solid #ff3c00; /* Add a border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+a:hover {
+  color: #fff;
+ 
+  border-color: transparent;
+}
+
+/* Contact form styles */
+.contact-form {
+  background-color: transparent;
+  padding: 30px 0;
+}
+
+.contact-form h2 {
+  font-size: 28px;
+  color:#ff3c00;
+  margin-bottom: 20px;
+}
+
+.contact-form p {
+  font-size: 18px;
+  color:#ff3c00;
+}
+
+.contact-form form {
+  margin-top: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color:#ff3c00;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ff3c00;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: transparent;
+  color: #ff3c00; /* Change text color to primary color */
+  border: 2px solid #ff3c00; /* Add a border */
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.contact-form button:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: transparent;
+}
+
+/* Footer */
+footer {
+  background-color: transparent;
+  color:#ff3c00;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #ff3c00; /* Add a border at the top */
+}
+
+footer p {
+  font-size: 16px;
+}

@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\ssspr\Desktop\hack_o_holic\Info_Safari\.venv"
+=======
+VIRTUAL_ENV="C:\Hackathons, Workshops and Courses\Hackathons\Hallothon 3.0\Info_Safari\.venv"
+>>>>>>> 27cb428ad4458f40763d32f9ae1f9043f57c1d35
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

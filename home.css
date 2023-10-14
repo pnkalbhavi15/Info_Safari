@@ -1,0 +1,105 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  background-color: #ff6600; /* Halloween orange */
+  color: #000; /* Black text */
+  padding: 20px 0;
+  padding-left: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #000; /* Black background */
+  padding: 40px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600; /* Halloween orange */
+  color: #000; /* Black text */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff0000; /* Red on hover for a Halloween effect */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000; /* Black background */
+  color: #ff6600; /* Halloween orange text */
+}
+.content
+{
+  height:254px;
+  width:100vw;
+  background-color:black;
+  display:flex;
+  justify-content:center;
+  gap: 200px ;
+  margin-top: 5px;
+  
+}
+.contentBox{
+ border-radius: 50%;
+
+}
