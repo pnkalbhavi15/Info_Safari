@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="news.css" />
+  </head>
+  <body class="halloween-theme">
+    <h1>Indian Rural News</h1>
+    <ul>
+      {% for article in news_articles %}
+      <li class="news-article">
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.content }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
