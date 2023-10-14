@@ -8,11 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-<<<<<<< HEAD
-set VIRTUAL_ENV=C:\Users\ssspr\Desktop\hack_o_holic\Info_Safari\.venv
-=======
 set VIRTUAL_ENV=C:\Hackathons, Workshops and Courses\Hackathons\Hallothon 3.0\Info_Safari\.venv
->>>>>>> 27cb428ad4458f40763d32f9ae1f9043f57c1d35
 
 if not defined PROMPT set PROMPT=$P$G
 
