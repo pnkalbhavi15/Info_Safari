@@ -1,31 +1,29 @@
-# Import necessary libraries
 from flask import Flask, render_template
 from bs4 import BeautifulSoup
 import requests
 
 app = Flask(__name__)
 
-# Define a function to scrape Indian news
-def scrape_indian_news():
-    # Replace 'url' with the URL of the Indian news website you want to scrape
-    url = 'https://example.com'
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+# URL to scrape
+url = "https://news24online.com/"
 
-    # Extract news articles
-    news_articles = []
-    for article in soup.find_all('div', class_='news-article'):
-        title = article.find('h2').text
-        content = article.find('p').text
-        news_articles.append({'title': title, 'content': content})
+def scrape_content(url):
+    try:
+        response = requests.get(url)
 
-    return news_articles
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            content = soup.prettify()  # Get the entire HTML content
+
+            return content
+
+    except Exception as e:
+        print(f"An error occurred while scraping {url}: {str(e)}")
 
 @app.route('/')
 def index():
-    # Call the scrape_indian_news function to get news articles
-    news_articles = scrape_indian_news()
-    return render_template('news.html', news_articles=news_articles)
+    news_content = scrape_content(url)
+    return render_template("news.html", news_content=news_content)
 
 if __name__ == '__main__':
     app.run(debug=True)
