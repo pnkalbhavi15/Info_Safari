@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+.logo img {
+  width: 200px;
+  animation: logoAnimation 3s infinite alternate ease-in-out;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.login,
+.signup {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.login:hover,
+.signup:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
