@@ -10,7 +10,7 @@ li {
 }
 
 body {
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   background-color: #000;
   color: #fff;
   margin: 0;
@@ -53,8 +53,6 @@ nav a {
   transition: color 0.3s ease;
 }
 
-
-
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -89,6 +87,7 @@ footer {
   /* Black background */
   color: #ff6600; /* Halloween orange text */
 }
+<<<<<<< HEAD:template/home.css
 .content
 {
   height:254px;
@@ -97,10 +96,23 @@ footer {
   display:flex;
   justify-content:center;
   gap: 200px ;
+=======
+.content {
+  height: 254px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+>>>>>>> 1ba28089ed610d4a039fd85c43e25999cac042ba:home.css
   margin-top: 5px;
-  
 }
+<<<<<<< HEAD:template/home.css
 .contentBox{
  border-radius: 50%;
 
+=======
+.contentBox {
+  border-radius: 50%;
+>>>>>>> 1ba28089ed610d4a039fd85c43e25999cac042ba:home.css
 }
